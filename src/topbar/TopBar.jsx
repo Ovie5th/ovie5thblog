@@ -1,6 +1,5 @@
 import React from 'react'
 import "./TopBar.css"
-import myImage from './IMG_1485.JPG'
 export default function TopBar() {
     return (
         <div className = "top">
@@ -19,7 +18,7 @@ export default function TopBar() {
                 </ul>
             </div>
             <div className="topright">
-                <img className = "topImg" src={myImage} alt="" />
+                <img className = "topImg" src="images/IMG_1485.JPG" alt="" />
                 <i className ="topsearchIcon fas fa-search"></i>
             </div>
         </div>
