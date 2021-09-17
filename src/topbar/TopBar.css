@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff;
 }
 
 .topleft,
@@ -14,6 +15,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+.topIcon {
+    margin: 10px;
+}
+.topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .topcenter{
     flex: 6;
@@ -22,7 +33,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .toplistItem{
     flex: 1;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+}
+.topsearchIcon{
+    margin-left: 10px;
+    font-size: 18px;
 }
