@@ -1,3 +1,62 @@
 .post {
     flex: 9;
+    margin: 50px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #be9656;
+}
+.postImgdiv {
+     width: 48%;
+     height: 280px;
+}
+.postImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.postInfo{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postCategory {
+    font-size: 13px;
+    color: #be9656;
+    font-family: 'Varela', sans-serif;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.postTitle {
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.postDate {
+    font-size: 14px;
+    color: #999;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+.postDesc {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #444;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
