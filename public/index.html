@@ -8,20 +8,60 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hahmlet:wght@100;200;300;400&family=Inter:wght@100;200;300;400;500&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Sora:wght@100;200;300;400&family=Varela&family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hahmlet:wght@100;200;300;400&family=Inter:wght@100;200;300;400;500&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Sora:wght@100;200;300;400&family=Varela&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <title>Ovie5th Blog</title>
     <style>
-      body{
+      body {
         margin: 0;
+      }
+      .loader-wrapper {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* display: grid;
+        place-items: center; */
+      }
+      .loader {
+        border: 16px solid #e3e3e3;
+        border-top: 16px solid aqua;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
       }
     </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-   
+    <div id="root">
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+      </div>
+    </div>
   </body>
 </html>
