@@ -1,50 +1,52 @@
 .top {
-    width: 100%;
-    height: 50px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #fff;
-    z-index: 2;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fff;
+  z-index: 2;
 }
 
 .topleft,
-.topright{
-    flex: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+.topright {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 .topIcon {
-    margin: 10px;
+  margin: 10px;
 }
 .topImg {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.topcenter{
-    flex: 6;
+.topcenter {
+  flex: 6;
 }
-.toplist{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.toplist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.toplistItem{
-    flex: 1;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 300;
+.toplistItem {
+  flex: 1;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  text-decoration: none;
 }
-.topsearchIcon{
-    margin-left: 10px;
-    font-size: 18px;
+.topsearchIcon {
+  margin-left: 10px;
+  font-size: 18px;
 }

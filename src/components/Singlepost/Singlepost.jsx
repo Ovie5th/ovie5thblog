@@ -4,7 +4,11 @@ export default function Singlepost() {
   return (
     <div className="singlepost">
       <div className="singlepostwrapper">
-        <img src="images/anime.jpg" alt="" className="singlepostImg" />
+        <img
+          src="https://www.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-feature-2020.jpg"
+          alt=""
+          className="singlepostImg"
+        />
       </div>
       <div className="singleposttitle">
         <h1 className="singleposttitleheader">Hello World</h1>

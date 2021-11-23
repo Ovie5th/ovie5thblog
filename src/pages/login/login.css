@@ -1,0 +1,55 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://resources.owllabs.com/hs-fs/hubfs/Zoom_BG4_Bright-Office-jpg.jpeg?width=898&name=Zoom_BG4_Bright-Office-jpg.jpeg");
+  background-size: cover;
+}
+.loginTitle {
+  font-size: 50px;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+.loginInput {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: lightcoral;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: teal;
+  border-radius: 10px;
+}
+
+.registerlink {
+  text-decoration: none;
+  color: #ffffff;
+}
